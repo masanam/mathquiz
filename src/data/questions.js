@@ -1,6 +1,18 @@
 export default {
-  "720ec11d-1056-484d-8a1c-fd2580019ea3": {
-    uuid: "720ec11d-1056-484d-8a1c-fd2580019ea3",
+  "e5e695e4-d02b-pbhd4-no11btr-9d6a1b75ba14": {
+    uuid: "e5e695e4-d02b-pbhd4-no11btr-9d6a1b75ba14",
+    question: " Urutkan dari besar ke kecil?",
+    gambar:
+    '/assets/sortir.png',
+    answers: [
+      { text: "9 7 6 3" },
+      { text: "7 9 6 3" },
+      { text: "3 6 7 9" }
+    ],
+    solutions: [0]
+  },
+  "720ec11d-1056-pbhd4-no11btr-fd2580019ea3": {
+    uuid: "720ec11d-1056-pbhd4-no11btr-fd2580019ea3",
     question: " menemukan kaos kaki di gudang.\nBerapakah jumlah kaos kaki yang kau temukan?",
     gambar:
     '/assets/kaoskaki.png',
@@ -13,8 +25,8 @@ export default {
     murid:true,
     solutions: [2]
   },
-  "f6a5f270-748f-47d5-9343-adac85c3d993": {
-    uuid: "f6a5f270-748f-47d5-9343-adac85c3d993",
+  "f6a5f270-748f-pbhd4-no11btr-adac85c3d993": {
+    uuid: "f6a5f270-748f-pbhd4-no11btr-adac85c3d993",
     question: "Pilihlah penjumlahan untuk hasil berikut :",
     gambar:
     '/assets/lima.png',
@@ -27,8 +39,8 @@ export default {
     ],
     solutions: [1,3]
   },
-  "6490b8ab-f5c1-4019-86f2-b6cdd3d7c6ba": {
-    uuid: "6490b8ab-f5c1-4019-86f2-b6cdd3d7c6ba",
+  "6490b8ab-f5c1-pbhd4-no11btr-b6cdd3d7c6ba": {
+    uuid: "6490b8ab-f5c1-pbhd4-no11btr-b6cdd3d7c6ba",
     question: ", hitunglah jumlah hewan di gambar berikut :",
     gambar:
     '/assets/animals2.png',
@@ -40,8 +52,8 @@ export default {
     murid:true,
     solutions: [2]
   },
-  "d0bca746-f7e8-430f-827f-165b83758177": {
-    uuid: "d0bca746-f7e8-430f-827f-165b83758177",
+  "d0bca746-f7e8-pbhd4-no11btr-165b83758177": {
+    uuid: "d0bca746-f7e8-pbhd4-no11btr-165b83758177",
     question: " apakah penjumlahan berikut Benar atau Salah ?",
     gambar:
     '/assets/apple-2.png',
@@ -52,8 +64,8 @@ export default {
     murid:true,
     solutions: [0]
   },
-  "a56abb5d-612d-4105-9505-6db7e8f1d23c": {
-    uuid: "a56abb5d-612d-4105-9505-6db7e8f1d23c",
+  "a56abb5d-612d-pbhd4-no11btr-6db7e8f1d23c": {
+    uuid: "a56abb5d-612d-pbhd4-no11btr-6db7e8f1d23c",
     question: "Hasil penjumlahan sesuai gambar adalah ?",
     gambar:
     '/assets/jari.png',
@@ -64,8 +76,8 @@ export default {
     ],
     solutions: [2]
   },
-  "7a65931c-8d52-4e4c-a7e3-295c94da8a69": {
-    uuid: "7a65931c-8d52-4e4c-a7e3-295c94da8a69",
+  "7a65931c-8d52-pbhd4-no11btr-295c94da8a69": {
+    uuid: "7a65931c-8d52-pbhd4-no11btr-295c94da8a69",
     question: " Hasil yang sama dengan gambar adalah ?",
     gambar:
     '/assets/apples-5.png',
@@ -77,8 +89,8 @@ export default {
     ],
     solutions: [0, 1, 2, 3]
   },
-  "e8f018b6-d8a0-4b83-9a45-fd5106019c19": {
-    uuid: "e8f018b6-d8a0-4b83-9a45-fd5106019c19",
+  "e8f018b6-d8a0-pbhd4-no11btr-fd5106019c19": {
+    uuid: "e8f018b6-d8a0-pbhd4-no11btr-fd5106019c19",
     question: " Ada berapa hewan di hutan tersebut ?",
     gambar:
     '/assets/forests.png',
@@ -90,20 +102,8 @@ export default {
     ],
     solutions: [0]
   },
-  "e5e695e4-d02b-4577-851a-9d6a1b75ba14": {
-    uuid: "e5e695e4-d02b-4577-851a-9d6a1b75ba14",
-    question: " Urutkan dari besar ke kecil?",
-    gambar:
-    '/assets/sortir.png',
-    answers: [
-      { text: "9 7 6 3" },
-      { text: "7 9 6 3" },
-      { text: "3 6 7 9" }
-    ],
-    solutions: [0]
-  },
-  "23eedcfe-ed96-4a1c-b263-8dcc0184c882": {
-    uuid: "23eedcfe-ed96-4a1c-b263-8dcc0184c882",
+  "23eedcfe-ed96-pbhd4-no11btr-8dcc0184c882": {
+    uuid: "23eedcfe-ed96-pbhd4-no11btr-8dcc0184c882",
     question: " Hasil yang sama dengan jumlah burung adalah ?",
     gambar:
     '/assets/birds.png',
@@ -115,9 +115,9 @@ export default {
     ],
     solutions: [0, 3]
   },
-  "913db727-61c5-4968-b244-fb015a1f0e74": {
-    uuid: "913db727-61c5-4968-b244-fb015a1f0e74",
-    question: " Ada berapa anak ayam di gambar berikut ?",
+  "913db727-61c5-pbhd4-no11btr-fb015a1f0e74": {
+    uuid: "913db727-61c5-pbhd4-no11btr-fb015a1f0e74",
+    question: " ada berapa anak ayam di gambar berikut ?",
     gambar:
     '/assets/chicks.png',
     answers: [
@@ -127,6 +127,7 @@ export default {
       { text: "42" },
       { text: "32" }
     ],
+    murid:true,
     solutions: [4]
   }
 };

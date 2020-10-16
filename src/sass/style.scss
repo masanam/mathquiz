@@ -12,9 +12,10 @@ body {
   background-image: url('../assets/banana1.png');
   background-repeat: no-repeat;
   background-size: auto;
-padding:100px;
-padding-left:300px;
+  padding:100px;
+  padding-left:300px;
 }
+
 h1 {
   a {
     color: inherit;
@@ -50,7 +51,6 @@ label {
   margin-bottom: 0.5rem; 
   width:150px;
 }
-
 .question{
   padding:60px;
 }
@@ -69,7 +69,6 @@ label {
 }
 .answers {
   margin: 1rem 0;
-
   .answer {
     padding: 0.25rem 0 0.25rem 0.25rem;
     border: 1px solid #006666;
