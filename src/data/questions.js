@@ -126,14 +126,14 @@ export default {
   },
   "4052fbca-8b1b-pbhd4-no11btr-a413552d8deb": {
     uuid: "4052fbca-8b1b-pbhd4-no11btr-a413552d8deb",
-    question: " Ada berapa hewan di hutan tersebut ?",
+    question: " Berapakah jumlah kue ?",
     gambar:
-    '/assets/forests.png',
+    '/assets/cake.png',
     answers: [
-      { text: '4' },
-      { text: '5' },
-      { text: '6' },
-      { text: '7' }
+      { text: '4 - 1' },
+      { text: '5 - 1' },
+      { text: '6 - 1' },
+      { text: '7 - 1' }
     ],
     level:'easy',
     solutions: [0]
@@ -142,21 +142,21 @@ export default {
     uuid: "4bed0ba0-c25b-pbhd4-no11btr-d2634ee0775d",
     question: " Ada berapa hewan di hutan tersebut ?",
     gambar:
-    '/assets/forests.png',
+    '/assets/animals.png',
     answers: [
-      { text: '4' },
-      { text: '5' },
-      { text: '6' },
-      { text: '7' }
+      { text: '1 + 6' },
+      { text: '1 + 5' },
+      { text: '1 + 4' },
+      { text: '1 + 3' }
     ],
     level:'hard',
-    solutions: [0]
+    solutions: [3]
   },
   "6c958b4e-2e21-pbhd4-no11btr-7356b4093856": {
     uuid: "6c958b4e-2e21-pbhd4-no11btr-7356b4093856",
-    question: " Ada berapa hewan di hutan tersebut ?",
+    question: " 2 apple ditambah 3 apple hasilnya ?",
     gambar:
-    '/assets/forests.png',
+    '/assets/apples.png',
     answers: [
       { text: '4' },
       { text: '5' },
@@ -164,55 +164,55 @@ export default {
       { text: '7' }
     ],
     level:'hard',
-    solutions: [0]
+    solutions: [1]
   },
   "3a3d27d2-3b50-pbhd4-no11btr-5ff727e419e8": {
     uuid: "3a3d27d2-3b50-pbhd4-no11btr-5ff727e419e8",
-    question: " Ada berapa hewan di hutan tersebut ?",
+    question: " 10 pisang dikurangi 4 pisang hasilnya ?",
     gambar:
-    '/assets/forests.png',
+    '/assets/banana6.png',
     answers: [
-      { text: '4' },
-      { text: '5' },
+      { text: '10 - 4' },
+      { text: '11 - 5' },
       { text: '6' },
       { text: '7' }
     ],
     level:'hard',
-    solutions: [0]
+    solutions: [0,1,2]
   },
   "3a21a1af-1530-pbhd4-no11btr-fbc81a4da76a": {
     uuid: "3a21a1af-1530-pbhd4-no11btr-fbc81a4da76a",
-    question: " Ada berapa hewan di hutan tersebut ?",
+    question: " Ada berapa burung yang terbang ?",
     gambar:
-    '/assets/forests.png',
+    '/assets/burung.png',
     answers: [
-      { text: '4' },
-      { text: '5' },
       { text: '6' },
-      { text: '7' }
+      { text: '5' },
+      { text: '4' },
+      { text: '3' }
     ],
     level:'easy',
-    solutions: [0]
+    solutions: [3]
   },
   "db06a0d7-77af-pbhd4-no11btr-17cdcdfa0c63": {
     uuid: "db06a0d7-77af-pbhd4-no11btr-17cdcdfa0c63",
     question: " Ada berapa hewan di hutan tersebut ?",
     gambar:
-    '/assets/forests.png',
+    '/assets/animals3.png',
     answers: [
-      { text: '4' },
+      { text: '4 + 4' },
       { text: '5' },
       { text: '6' },
-      { text: '7' }
+      { text: '7 + 1' }
     ],
     level:'hard',
-    solutions: [0]
+    solutions: [0,3]
   },
   "824ec22a-1056-pbhd4-no11btr-fd2580019ea3": {
     uuid: "824ec22a-1056-pbhd4-no11btr-fd2580019ea3",
-    question: " Ada berapa hewan di hutan tersebut ?",
+    question: " Ada berapa rumah di gambar tersebut ?",
     gambar:
-    '/assets/forests.png',
+    '/assets/rumah-2.png',
     answers: [
       { text: '4' },
       { text: '5' },
@@ -220,13 +220,13 @@ export default {
       { text: '7' }
     ],
     level:'easy',
-    solutions: [0]
+    solutions: [2]
   },
   "jfads8-1056-pbhd4-no11btr-fd2580019ea3": {
     uuid: "jfads8-1056-pbhd4-no11btr-fd2580019ea3",
-    question: " Ada berapa hewan di hutan tersebut ?",
+    question: " Ada berapa angka lima di gambar tersebut ?",
     gambar:
-    '/assets/forests.png',
+    '/assets/lima-2.png',
     answers: [
       { text: '4' },
       { text: '5' },
@@ -234,7 +234,7 @@ export default {
       { text: '7' }
     ],
     level:'hard',
-    solutions: [0]
+    solutions: [1]
   },
   "913db727-61c5-pbhd4-no11btr-fb015a1f0e74": {
     uuid: "913db727-61c5-pbhd4-no11btr-fb015a1f0e74",
