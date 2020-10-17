@@ -37,7 +37,8 @@ class App extends React.Component {
   };
 
   getFirstQuestion = () => {
-    const questionId = Object.keys(this.state.questions)[0];
+    let RandomNumber = Math.floor(Math.random() * 18) + 1 ;
+    const questionId = Object.keys(this.state.questions)[RandomNumber];
     return this.state.questions[questionId];
   };
 

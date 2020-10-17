@@ -11,10 +11,14 @@ class Home extends React.Component {
   }
 
   start = event => {
-    event.preventDefault();
-    this.props.history.push({
-      pathname: `/q/${this.props.getFirstQuestion().uuid}/${this.state.userName}/${this.state.kelas}`
-    })
+    if ((this.state.userName !=='') && (this.state.kelas !=='')){
+      event.preventDefault();
+      this.props.history.push({
+        pathname: `/q/${this.props.getFirstQuestion().uuid}/${this.state.userName}/${this.state.kelas}`
+      })
+    }else{
+        alert('Data tidak boleh kosong')
+      }
   };
 
   render() {

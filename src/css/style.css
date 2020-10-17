@@ -7195,8 +7195,23 @@ label {
   margin-bottom: 0.5rem;
   width: 150px; }
 
+.level-easy {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #666; }
+
+.level-medium {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #333; }
+
+.level-hard {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: red; }
+
 .question {
-  padding: 60px; }
+  padding: 30px; }
 
 .username {
   padding: 100px; }

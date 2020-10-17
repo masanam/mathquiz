@@ -148,12 +148,21 @@ class Question extends React.Component {
           </div>
         )}
 
+          <div className={
+              `col-2 alert alert-info level-${this.props.question.level}`
+                      }
+                    >
+              {this.props.question.level}
+          </div>
+
         <h2>
          
           {question.hasOwnProperty("murid")
                   ? <span class="murid">{this.props.userName}</span>
                   : ""
           }
+
+
 
         {this.props.question.question.split('\n').map(function(item, key) {
           return (

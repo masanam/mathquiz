@@ -9,6 +9,7 @@ export default {
       { text: "7 9 6 3" },
       { text: "3 6 7 9" }
     ],
+    level:'easy',
     solutions: [0]
   },
   "720ec11d-1056-pbhd4-no11btr-fd2580019ea3": {
@@ -23,6 +24,7 @@ export default {
       { text: "6" }
     ],
     murid:true,
+    level:'easy',
     solutions: [2]
   },
   "f6a5f270-748f-pbhd4-no11btr-adac85c3d993": {
@@ -37,6 +39,7 @@ export default {
       { text: "4 + 1" }
 
     ],
+    level:'easy',
     solutions: [1,3]
   },
   "6490b8ab-f5c1-pbhd4-no11btr-b6cdd3d7c6ba": {
@@ -50,6 +53,7 @@ export default {
       { text: "<11>" }
     ],
     murid:true,
+    level:'medium',
     solutions: [2]
   },
   "d0bca746-f7e8-pbhd4-no11btr-165b83758177": {
@@ -62,6 +66,7 @@ export default {
       { text: '< Salah >' }
     ],
     murid:true,
+    level:'medium',
     solutions: [0]
   },
   "a56abb5d-612d-pbhd4-no11btr-6db7e8f1d23c": {
@@ -74,6 +79,7 @@ export default {
       { text: "7" },
       { text: "9" }
     ],
+    level:'easy',
     solutions: [2]
   },
   "7a65931c-8d52-pbhd4-no11btr-295c94da8a69": {
@@ -87,6 +93,7 @@ export default {
       { text: "5 - 2" },
       { text: "6 - 3" }
     ],
+    level:'medium',
     solutions: [0, 1, 2, 3]
   },
   "e8f018b6-d8a0-pbhd4-no11btr-fd5106019c19": {
@@ -100,6 +107,7 @@ export default {
       { text: '6' },
       { text: '7' }
     ],
+    level:'easy',
     solutions: [0]
   },
   "23eedcfe-ed96-pbhd4-no11btr-8dcc0184c882": {
@@ -113,7 +121,120 @@ export default {
       { text: "5 - 2" },
       { text: "6 - 1" }
     ],
+    level:'medium',
     solutions: [0, 3]
+  },
+  "4052fbca-8b1b-pbhd4-no11btr-a413552d8deb": {
+    uuid: "4052fbca-8b1b-pbhd4-no11btr-a413552d8deb",
+    question: " Ada berapa hewan di hutan tersebut ?",
+    gambar:
+    '/assets/forests.png',
+    answers: [
+      { text: '4' },
+      { text: '5' },
+      { text: '6' },
+      { text: '7' }
+    ],
+    level:'easy',
+    solutions: [0]
+  },
+  "4bed0ba0-c25b-pbhd4-no11btr-d2634ee0775d": {
+    uuid: "4bed0ba0-c25b-pbhd4-no11btr-d2634ee0775d",
+    question: " Ada berapa hewan di hutan tersebut ?",
+    gambar:
+    '/assets/forests.png',
+    answers: [
+      { text: '4' },
+      { text: '5' },
+      { text: '6' },
+      { text: '7' }
+    ],
+    level:'hard',
+    solutions: [0]
+  },
+  "6c958b4e-2e21-pbhd4-no11btr-7356b4093856": {
+    uuid: "6c958b4e-2e21-pbhd4-no11btr-7356b4093856",
+    question: " Ada berapa hewan di hutan tersebut ?",
+    gambar:
+    '/assets/forests.png',
+    answers: [
+      { text: '4' },
+      { text: '5' },
+      { text: '6' },
+      { text: '7' }
+    ],
+    level:'hard',
+    solutions: [0]
+  },
+  "3a3d27d2-3b50-pbhd4-no11btr-5ff727e419e8": {
+    uuid: "3a3d27d2-3b50-pbhd4-no11btr-5ff727e419e8",
+    question: " Ada berapa hewan di hutan tersebut ?",
+    gambar:
+    '/assets/forests.png',
+    answers: [
+      { text: '4' },
+      { text: '5' },
+      { text: '6' },
+      { text: '7' }
+    ],
+    level:'hard',
+    solutions: [0]
+  },
+  "3a21a1af-1530-pbhd4-no11btr-fbc81a4da76a": {
+    uuid: "3a21a1af-1530-pbhd4-no11btr-fbc81a4da76a",
+    question: " Ada berapa hewan di hutan tersebut ?",
+    gambar:
+    '/assets/forests.png',
+    answers: [
+      { text: '4' },
+      { text: '5' },
+      { text: '6' },
+      { text: '7' }
+    ],
+    level:'easy',
+    solutions: [0]
+  },
+  "db06a0d7-77af-pbhd4-no11btr-17cdcdfa0c63": {
+    uuid: "db06a0d7-77af-pbhd4-no11btr-17cdcdfa0c63",
+    question: " Ada berapa hewan di hutan tersebut ?",
+    gambar:
+    '/assets/forests.png',
+    answers: [
+      { text: '4' },
+      { text: '5' },
+      { text: '6' },
+      { text: '7' }
+    ],
+    level:'hard',
+    solutions: [0]
+  },
+  "824ec22a-1056-pbhd4-no11btr-fd2580019ea3": {
+    uuid: "824ec22a-1056-pbhd4-no11btr-fd2580019ea3",
+    question: " Ada berapa hewan di hutan tersebut ?",
+    gambar:
+    '/assets/forests.png',
+    answers: [
+      { text: '4' },
+      { text: '5' },
+      { text: '6' },
+      { text: '7' }
+    ],
+    level:'easy',
+    solutions: [0]
+  },
+  "jfads8-1056-pbhd4-no11btr-fd2580019ea3": {
+    uuid: "jfads8-1056-pbhd4-no11btr-fd2580019ea3",
+    question: " Ada berapa hewan di hutan tersebut ?",
+    gambar:
+    '/assets/forests.png',
+    answers: [
+      { text: '4' },
+      { text: '5' },
+      { text: '6' },
+      { text: '7' }
+    ],
+    level:'hard',
+    solutions: [0]
   },
   "913db727-61c5-pbhd4-no11btr-fb015a1f0e74": {
     uuid: "913db727-61c5-pbhd4-no11btr-fb015a1f0e74",
@@ -128,6 +249,7 @@ export default {
       { text: "32" }
     ],
     murid:true,
+    level:'easy',
     solutions: [4]
   }
 };
