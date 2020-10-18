@@ -1,4 +1,5 @@
-export default {
+export default 
+  {
   "e5e695e4-d02b-pbhd4-no11btr-9d6a1b75ba14": {
     uuid: "e5e695e4-d02b-pbhd4-no11btr-9d6a1b75ba14",
     question: " Urutkan dari besar ke kecil?",
@@ -116,10 +117,10 @@ export default {
     gambar:
     '/assets/birds.png',
     answers: [
-      { text: "5 + 0" },
-      { text: "4 - 1" },
-      { text: "5 - 2" },
-      { text: "6 - 1" }
+      { text: "5 + 1" },
+      { text: "5 - 1" },
+      { text: "7 - 2" },
+      { text: "7 - 1" }
     ],
     level:'medium',
     solutions: [0, 3]

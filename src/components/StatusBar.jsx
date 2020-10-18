@@ -6,6 +6,7 @@ function StatusBar(props) {
       <div className="row">
         <div className="col col-lg-6 soal">
           Soal Nomor : {props.count} / {props.total}
+
         </div>
         <div className="col col-lg-6 text-right score">
           Skor : &nbsp; {props.score}

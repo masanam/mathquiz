@@ -12,12 +12,14 @@ import questions from "../data/questions";
 class App extends React.Component {
   constructor(props) {
     super(props);
-
     this.state = {
+      hasil : 0,
+      jumlah : 0,
       userName:'',
       kelas:'',
       questions,
       choices: {},
+      batas : 10,
       score: {
         correct: 0,
         wrong: 0,
@@ -25,20 +27,33 @@ class App extends React.Component {
       }
     };
   }
+  
 
+  shuffleArray(array) {
+    var currentIndex = array.length,
+      temporaryValue,
+      randomIndex;
+    while (0 !== currentIndex) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
+  }
 
   getNextQuestion = currentId => {
-    const keys = Object.keys(this.state.questions);
+    const keys = this.shuffleArray(Object.keys(this.state.questions));
     const currentIndex = keys.indexOf(currentId);
     const nextIndex = currentIndex + 1;
     const nextId = keys[nextIndex];
-
     return this.state.questions[nextId];
   };
 
   getFirstQuestion = () => {
-    let RandomNumber = Math.floor(Math.random() * 18) + 1 ;
-    const questionId = Object.keys(this.state.questions)[RandomNumber];
+    const idx = 0;
+    const questionId = this.shuffleArray(Object.keys(this.state.questions))[idx];
     return this.state.questions[questionId];
   };
 
@@ -57,7 +72,8 @@ class App extends React.Component {
       } else {
         state.score.wrong++;
       }
-
+        state.jumlah++;
+        state.hasil++;
       return state;
     });
   };
@@ -80,7 +96,8 @@ class App extends React.Component {
   };
 
   render() {
-        return (
+
+    return (
       <div className="app container">
         <header className="header">
           <h1>
@@ -107,11 +124,8 @@ class App extends React.Component {
                 return (
                   <Fragment>
                     <StatusBar
-                      count={
-                        Object.keys(this.state.questions).indexOf(questionId) +
-                        1
-                      }
-                      total={Object.keys(this.state.questions).length}
+                      count={this.state.jumlah + 1}
+                      total= {this.state.batas}
                       score={this.state.score.total}
                     />
                     <Question
@@ -124,10 +138,17 @@ class App extends React.Component {
                       getLastQuestion={this.getLastQuestion}
                       updateScore={this.updateScore}
                       saveChoices={this.saveChoices}
+                      hasil={this.state.hasil + 1}
                     />
                     <FooterBar
                       userName={userName}
                       kelas={kelas}
+                      count={
+                        Object.keys(this.state.questions).indexOf(questionId) +
+                        1
+                      }
+                      total={Object.keys(this.state.questions).length}
+                      score={this.state.score.total}
                     />
                   </Fragment>
                 );

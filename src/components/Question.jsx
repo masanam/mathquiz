@@ -9,6 +9,7 @@ class Question extends React.Component {
 
     this.state = {
       userName:'',
+      kelas:'',
       checked: [],
       submitted: false,
       success: false,
@@ -70,6 +71,7 @@ class Question extends React.Component {
     if (this.state.missingChoice === true) {
       this.setState({ missingChoice: false });
     }
+
 
     this.setState({ submitted: true });
     this.props.saveChoices(this.props.id, this.state.checked);
@@ -139,7 +141,6 @@ class Question extends React.Component {
       pathname: '/result', 
       userName: this.props.userName 
     };
-
     return (
       <div className="question">
         {this.state.missingChoice && (
@@ -246,7 +247,8 @@ class Question extends React.Component {
 
         {this.state.submitted === true &&
           this.state.success === false &&
-          this.state.last === true && (
+          this.state.last === false && 
+          this.props.hasil === 10 &&           (
             <Link to={newTo} className="btn btn-primary">
               Final Result&nbsp; <i className="fa fa-arrow-right" />
             </Link>
